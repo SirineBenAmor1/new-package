@@ -1,0 +1,4 @@
+<launch>
+  <node name="client" pkg="minimum" type="client.py" output="screen"/>
+  <node name="server" pkg="minimum" type="server.py" output="screen"/>
+</launch>
